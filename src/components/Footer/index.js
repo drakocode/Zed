@@ -17,10 +17,10 @@ const Footer = ({ empresa }) => {
                 <div className="row text-light text-center py-4 justify-content-center">
                     <div className="fut col-sm-10 col-md-8 col-lg-6">
                         <ul className="social pt-3">
-                            <a href="https://www.instagram.com/resyakire/"><img src={instagram} /></a>
-                            <a href="https://github.com/resyakKire"><img src={github} /></a>
-                            <a href="https://www.linkedin.com/in/erik-kayser-b5228a212/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BjqjFhxkXRYCKO99XA%2FurAQ%3D%3D"><img src={linkedin} /></a>
-                            <a href="mailto:erikkayser843@gmail.com"><img src={mail} /></a>
+                            <a href="https://www.instagram.com/resyakire/"><img src={instagram} alt="instagram"/></a>
+                            <a href="https://github.com/resyakKire"><img src={github} alt="github"/></a>
+                            <a href="https://www.linkedin.com/in/erik-kayser-b5228a212/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BjqjFhxkXRYCKO99XA%2FurAQ%3D%3D"><img src={linkedin} alt="linkedin"/></a>
+                            <a href="mailto:erikkayser843@gmail.com"><img src={mail} alt="mail"/></a>
                         </ul>
                         <h3>{empresa} Todos os direitos reservados.&copy; Copyright {generateDateString()}</h3>
                     </div>
