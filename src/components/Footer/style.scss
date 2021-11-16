@@ -1,0 +1,21 @@
+#footer{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background: rgb(44, 0, 44);
+    color: white;
+    .fut{
+        img{
+            margin: 11px;
+            max-width: 30px;
+        }
+        h3{
+            &::first-letter{
+                color: fuchsia;
+            }
+        }
+    }
+
+    
+}
+  

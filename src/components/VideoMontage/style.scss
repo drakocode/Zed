@@ -1,0 +1,12 @@
+#galeria-videos-montages{
+    margin: 60px 0;
+    gap: 38px;
+    text-align: center;
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 18px;
+        text-align: center;
+    }
+}
+  

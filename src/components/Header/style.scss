@@ -1,0 +1,39 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    background: black;
+    color: white;
+    padding: 20px;
+    z-index: 847654687;
+    h1{
+        font-size: 30px;
+    }
+    h1{
+        &::first-letter{
+        color: fuchsia;
+        }
+    }
+    ul{
+        display: flex;
+        gap: 5px;
+        li{
+            list-style-type: none;
+            a{
+                text-decoration: none;
+                color: white;
+                padding: 10px;
+                border-radius: 9px;
+                font-weight: bold;
+                transition: all .3s ease-in-out;
+                &:hover{
+                    background: fuchsia;
+                    color: black;
+                }
+            }
+        }
+    }
+}

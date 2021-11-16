@@ -1,0 +1,27 @@
+.banner {
+    width: 100%;
+    height: calc(100vh - 81px);
+    background-image: url("https://cdna.artstation.com/p/assets/images/images/001/740/504/large/jason-chan-zed-portrait.jpg?1452048815");
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .banner-text{
+        color: white;
+        text-shadow: 5px 5px 5px #222;
+        text-align: center;
+        width: 50%;
+        h2{
+            font-size: 50px;
+            p{
+                text-align:inherit;
+                font-size: 20px;
+            }
+        }
+    }
+    
+    
+}
